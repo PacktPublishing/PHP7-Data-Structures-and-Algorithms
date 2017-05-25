@@ -25,9 +25,9 @@ $this->children[] = $node;
 All you need to have is the latest PHP version (minimum requirement is PHP 7.x) installed
 on your machine. You can run the examples from a command line, which does not require a
 web server. However, if you want, you can install Apache or Nginx, or the following:
--PHP 7.x+
--Nginx/apache (optional)
--PHP IDE or code editor
+PHP 7.x+,
+Nginx/apache (optional),
+PHP IDE or code editor.
 
 ## Related Products
 * [Learning PHP 7](https://www.packtpub.com/application-development/learning-php-7?utm_source=github&utm_medium=repository&utm_campaign=9781785880544)
