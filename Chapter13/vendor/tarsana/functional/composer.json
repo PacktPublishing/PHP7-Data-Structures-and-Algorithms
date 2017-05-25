@@ -1,0 +1,32 @@
+{
+    "name": "tarsana/functional",
+    "description": "functional programming library for Tarsana",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amine Ben hammou",
+            "email": "webneat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tarsana\\Functional\\": "src/Classes/",
+            "Tarsana\\UnitTests\\Functional\\": "tests/"
+        },
+        "files": [
+          "src/Internal/_functions.php",
+          "src/Internal/_stream.php",
+          "src/functions.php",
+          "src/operators.php",
+          "src/common.php",
+          "src/object.php",
+          "src/string.php",
+          "src/list.php",
+          "src/math.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
