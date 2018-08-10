@@ -1,7 +1,7 @@
 # PHP 7 Data Structures and Algorithms
 This is the code repository for [PHP 7 Data Structures and Algorithms](https://www.packtpub.com/application-development/php-7-data-structures-and-algorithms?utm_source=github&utm_medium=repository&utm_campaign=9781786463890), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-PHP has always been the the go-to language for web based application development, but there are materials and resources you can refer to to see how it works. Data structures and algorithms help you to code and execute them effectively, cutting down on processing time significantly.
+PHP has always been the go-to language for web based application development, but there are materials and resources you can refer to to see how it works. Data structures and algorithms help you to code and execute them effectively, cutting down on processing time significantly.
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
