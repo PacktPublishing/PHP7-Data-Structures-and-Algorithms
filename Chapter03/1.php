@@ -72,15 +72,21 @@ class LinkedList implements Iterator {
         if ($this->_firstNode) {
             $previous = NULL;
             $currentNode = $this->_firstNode;
+            $count = 0;
             while ($currentNode !== NULL) {
                 if ($currentNode->data === $query) {
-                    $newNode->next = $currentNode;
-                    $previous->next = $newNode;
-                    $this->_totalNode++;
+                    if($count===0){
+                    $this->insertAtFirst($data);
+                    }else{
+                        $newNode->next = $currentNode;
+                        $previous->next = $newNode;
+                        $this->_totalNode++;
+                    }
                     break;
                 }
                 $previous = $currentNode;
                 $currentNode = $currentNode->next;
+                $count++;
             }
         }
     }
@@ -233,6 +239,7 @@ $BookTitles = new LinkedList();
 $BookTitles->insert("Introduction to Algorithm");
 $BookTitles->insert("Introduction to PHP and Data structures");
 $BookTitles->insert("Programming Intelligence");
+$BookTitles->InsertBefore("Book Inserted Before the First Element", "Introduction to Algorithm");
 $BookTitles->insertAtFirst("Mediawiki Administrative tutorial guide");
 $BookTitles->insertBefore("Introduction to Calculus", "Programming Intelligence");
 $BookTitles->insertAfter("Introduction to Calculus", "Programming Intelligence");
